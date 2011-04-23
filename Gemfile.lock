@@ -1,0 +1,23 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.0.1)
+    execjs (0.2.0)
+    rack (1.2.2)
+    rack-coffee (0.3.4)
+      rack
+    sinatra (1.2.3)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  coffee-script (~> 2.2.0)
+  rack-coffee (~> 0.3.4)
+  sinatra (~> 1.2.3)
