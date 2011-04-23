@@ -41,7 +41,7 @@ To see that they get loaded as *JavaScript* in the browser, the SpecRunner shoul
     <script type="text/javascript" src="src/pants.js"></script>
     <script type="text/javascript" src="spec/pants-spec.js"></script>
 
-Upon [loading the SpecRunner in a browser](http://localhost:4567/SpecRunner.html), you should see your alert or two and upon inspection, be able to take a look at the generated CoffeeScript. Which, at the time of this writing, would look a little like:
+Upon [loading the SpecRunner in a browser](http://localhost:4567/SpecRunner.html), you should see your alert or two and, upon inspection, be able to take a look at the generated CoffeeScript. Which, at the time of this writing, would look a little like:
 
     (function() {
       alert("Pants!");
