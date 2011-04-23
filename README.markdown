@@ -1,6 +1,6 @@
-# Jasmine + CoffeeScript + rack-coffee = Fast Feedback for Great Success!
+# Jasmine + CoffeeScript + Sinatra (w/rack-coffee) -> Fast feedback!
 
-So if you want to use [Jasmine](http://pivotal.github.com/jasmine/) for [TDD](http://en.wikipedia.org/wiki/Test-driven_development)/[BDD](http://en.wikipedia.org/wiki/Behavior_Driven_Development) and you want to use CoffeeScript for sparing your keyboard's poor '{' and '}' keys from any more abuse, here's a skeleton project to work from.
+So, you want to use [Jasmine](http://pivotal.github.com/jasmine/) for [TDD](http://en.wikipedia.org/wiki/Test-driven_development)/[BDD](http://en.wikipedia.org/wiki/Behavior_Driven_Development) and you want to use [CoffeeScript](http://jashkenas.github.com/coffee-script/) for sparing your keyboard's poor '{' and '}' keys from any more abuse? Well, then here's a skeleton project for you!
 
 All you need to do is:
 
