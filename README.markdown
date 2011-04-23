@@ -24,9 +24,10 @@ All you need to do is:
     
     bundle exec ruby sinatra.rb
     
-5. [Visit the spec runner](http://localhost:4567/SpecRunner.html) in your browser 
+5. [Visit the spec runner](http://localhost:4567/SpecRunner.html) in your browser: 
 
     
-    open http://localhost:4567/SpecRunner.html
+        open http://localhost:4567/SpecRunner.html
 
 That's it! Now all you have to do is go write code. If you'd like an intro on getting started with Jasmine (in JavaScript), I've posted [a presentation and another example standalone project](https://github.com/searls/jasmine-intro) on github.
+
