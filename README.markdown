@@ -30,7 +30,7 @@ Now you're cooking with gas (and perhaps trying to avoid thinking about how putt
 
 Add CoffeeScripts to `public/src` and `public/spec` with a ".coffee" extension. They'll be accessible from the web with a ".js" extension, which is how you'll want to reference them from your SpecRunner.html file. 
 
-## An Example:
+## An Example
 
 Let's say you want to write a script about pants. You would simply create a source `public/src/pants.coffee` and a spec `public/spec/pants-spec.coffee` and fill them up with CoffeeScript. Or a silly alert:
 
