@@ -28,15 +28,15 @@ All you need to do is:
 
 Now you're cooking with gas (and perhaps trying to avoid thinking about how putting Jasmine in Coffee would actually taste).
 
-Add CoffeeScripts to `public/src` and `public/spec` with a ".coffee" extension. They'll be accessible from the web with a ".js" extension, which is how you'll want to reference them from your SpecRunner.html file. 
-
-## This example
+## This project's example code
 
 To help get you started, this project creates an example class called "[ReducesUrls](https://github.com/searls/jasmine-coffee/blob/master/public/src/reduces-urls.coffee)" with a `#reduce` method that will take a URL string and break it up into its components (e.g. host, port, query string, and a parameter object of what was on the query string). To see how it works, check out the [spec](https://github.com/searls/jasmine-coffee/blob/master/public/spec/reduces-urls-spec.coffee).
 
 ## Adding your own CoffeeScript
 
-Let's say you want to write a script about pants. You would simply create a source `public/src/pants.coffee` and a spec `public/spec/pants-spec.coffee` and fill them up with CoffeeScript. Or a silly alert:
+In short: add CoffeeScripts to `public/src` and `public/spec` with a ".coffee" extension. They'll be accessible from the web with a ".js" extension, which is how you'll want to reference them from your SpecRunner.html file. 
+
+For example, let's say you want to write a script about pants. You would simply create a source `public/src/pants.coffee` and a spec `public/spec/pants-spec.coffee` and fill them up with CoffeeScript. Or a silly alert:
 
     alert "Pants!"
 
