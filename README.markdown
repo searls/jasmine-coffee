@@ -2,6 +2,8 @@
 
 So, you want to use [Jasmine](http://pivotal.github.com/jasmine/) for [TDD](http://en.wikipedia.org/wiki/Test-driven_development)/[BDD](http://en.wikipedia.org/wiki/Behavior_Driven_Development) and you want to use [CoffeeScript](http://jashkenas.github.com/coffee-script/) for sparing your keyboard's poor '{' and '}' keys from any more abuse? Well, then here's a skeleton project for you!
 
+## Get up and running
+
 All you need to do is:
 
 1. Install [Bundler](http://gembundler.com)
@@ -24,5 +26,29 @@ All you need to do is:
     
         open http://localhost:4567/SpecRunner.html
 
-That's it! Now all you have to do is go write code. If you'd like an intro on getting started with Jasmine (in JavaScript), I've posted [a presentation and another example standalone project](https://github.com/searls/jasmine-intro) on github.
+Now you're cooking with gas (and perhaps trying to avoid thinking about how putting Jasmine in Coffee would actually taste).
+
+Add CoffeeScripts to `public/src` and `public/spec` with a ".coffee" extension. They'll be accessible from the web with a ".js" extension, which is how you'll want to reference them from your SpecRunner.html file. 
+
+## An Example:
+
+Let's say you want to write a script about pants. You would simply create a source `public/src/pants.coffee` and a spec `public/spec/pants-spec.coffee` and fill them up with CoffeeScript. Or a silly alert:
+
+    alert "Pants!"
+
+To see that they get loaded as *JavaScript* in the browser, the SpecRunner should include:
+
+    <script type="text/javascript" src="src/pants.js"></script>
+    <script type="text/javascript" src="spec/pants-spec.js"></script>
+
+Upon [loading the SpecRunner in a browser](http://localhost:4567/SpecRunner.html), you should see your alert or two and upon inspection, be able to take a look at the generated CoffeeScript. Which, at the time of this writing, would look a little like:
+
+    (function() {
+      alert("Pants!");
+    }).call(this);    
+
+
+## Go forth!
+
+Now all you have to do is go write code. If you'd like an intro on getting started with Jasmine (in JavaScript), I've posted [a presentation and another example standalone project](https://github.com/searls/jasmine-intro) on github.
 
