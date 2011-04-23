@@ -30,7 +30,7 @@ Now you're cooking with gas (and perhaps trying to avoid thinking about how putt
 
 ## This project's example code
 
-To help get you started, this project creates an example class called "[ReducesUrls](https://github.com/searls/jasmine-coffee/blob/master/public/src/reduces-urls.coffee)" with a `#reduce` method that will take a URL string and break it up into its components (e.g. host, port, query string, and a parameter object of what was on the query string). To see how it works, check out the [spec](https://github.com/searls/jasmine-coffee/blob/master/public/spec/reduces-urls-spec.coffee).
+To help get you started, this project includes an example class called "[ReducesUrls](https://github.com/searls/jasmine-coffee/blob/master/public/src/reduces-urls.coffee)" with a `#reduce` method that will take a URL string and break it up into its components (e.g. host, port, query string, and a parameter object of what was on the query string). To see how it works, check out the [spec](https://github.com/searls/jasmine-coffee/blob/master/public/spec/reduces-urls-spec.coffee).
 
 ## Adding your own CoffeeScript
 
