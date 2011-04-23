@@ -22,7 +22,6 @@ class window.ReducesUrls
   _parameterize: (queryString) ->
     params = {}
     if queryString then _(queryString.split('&')).each((field) ->
-      console.log(field)
       pair = field.split('=')
       params[pair[0]] = pair[1] || null
     )
