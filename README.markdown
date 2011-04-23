@@ -30,11 +30,11 @@ Now you're cooking with gas (and perhaps trying to avoid thinking about how putt
 
 ## This project's example code
 
-To help get you started, this project includes an example class called "[ReducesUrls](https://github.com/searls/jasmine-coffee/blob/master/public/src/reduces-urls.coffee)" with a `#reduce` method that will take a URL string and break it up into its components (e.g. host, port, query string, and a parameter object of what was on the query string). To see how it works, check out the [spec](https://github.com/searls/jasmine-coffee/blob/master/public/spec/reduces-urls-spec.coffee).
+To help get you started, this project includes an example class called "[ReducesUrls](https://github.com/searls/jasmine-coffee/blob/master/public/src/reduces-urls.coffee)" with a `#reduce` method that will take a URL string and break it up into its components (e.g. host, port, query string, and a parameter object of what was on the query string). To see how it works, [check out the spec](https://github.com/searls/jasmine-coffee/blob/master/public/spec/reduces-urls-spec.coffee).
 
 ## Adding your own CoffeeScript
 
-In short: add CoffeeScripts to `public/src` and `public/spec` with a ".coffee" extension. They'll be accessible from the web with a ".js" extension, which is how you'll want to reference them from your SpecRunner.html file. 
+In short: add CoffeeScripts to `public/src` and `public/spec` with a ".coffee" extension. They'll be accessible from the web with a ".js" extension, which is how you'll want to reference them from your [SpecRunner.html](https://github.com/searls/jasmine-coffee/blob/master/public/SpecRunner.html) file. 
 
 For example, let's say you want to write a script about pants. You would simply create a source `public/src/pants.coffee` and a spec `public/spec/pants-spec.coffee` and fill them up with CoffeeScript. Or a silly alert:
 
@@ -45,7 +45,7 @@ To see that they get loaded as *JavaScript* in the browser, the SpecRunner shoul
     <script type="text/javascript" src="src/pants.js"></script>
     <script type="text/javascript" src="spec/pants-spec.js"></script>
 
-Upon [loading the SpecRunner in a browser](http://localhost:4567/SpecRunner.html), you should see your alert or two and, upon inspection, be able to take a look at the generated CoffeeScript. Which, at the time of this writing, would look a little like:
+Upon [loading the SpecRunner in a browser](http://localhost:4567/SpecRunner.html), you should see your alert and, upon inspection, be able to take a look at the generated CoffeeScript. Which, at the time of this writing, would look a little like:
 
     (function() {
       alert("Pants!");
