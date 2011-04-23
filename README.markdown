@@ -5,27 +5,22 @@ So, you want to use [Jasmine](http://pivotal.github.com/jasmine/) for [TDD](http
 All you need to do is:
 
 1. Install [Bundler](http://gembundler.com)
-  
     
-    gem install bundler
+        gem install bundler
 
-2. Clone this repo somewhere: 
-
+2. Clone this repo somewhere:
     
-    git clone git://github.com/searls/jasmine-coffee.git && cd jasmine-coffee
+        git clone git://github.com/searls/jasmine-coffee.git && cd jasmine-coffee
 
 3. Tell Bundler to install [Sinatra](http://www.sinatrarb.com/), [CoffeeScript](http://jashkenas.github.com/coffee-script/), and [rack-coffee](https://github.com/mattly/rack-coffee)
-
     
-    bundle install
+        bundle install
     
 4. Run Sinatra to start serving up everything
-
     
-    bundle exec ruby sinatra.rb
+        bundle exec ruby sinatra.rb
     
 5. [Visit the spec runner](http://localhost:4567/SpecRunner.html) in your browser: 
-
     
         open http://localhost:4567/SpecRunner.html
 
