@@ -4,11 +4,29 @@ So, you want to use [Jasmine](http://pivotal.github.com/jasmine/) for [TDD](http
 
 ## Get up and running
 
-All you need to do is:
+Install CoffeeScript (one mildly roundabout approach follows):
+
+1. Install [homebrew](https://github.com/mxcl/homebrew)
+
+        ruby -e "$(curl -fsSL https://gist.github.com/raw/323731/install_homebrew.rb)"
+
+2. Install [node.js](http://nodejs.org/)
+
+        brew install node
+
+3. Install [npm](http://npmjs.org/)
+
+        curl http://npmjs.org/install.sh | sh
+
+4. Install CoffeeScript
+
+        npm install -g coffee-script
+
+Run this project:
 
 1. Install [Bundler](http://gembundler.com)
     
-        gem install bundler
+        gem install bundler 
 
 2. Clone this repo somewhere:
     
